@@ -28,6 +28,10 @@ margin-left: .75rem;
     line-height: 1;
     letter-spacing: -.05rem;
   }
+
+  a {
+      color:white;
+  }
   
   
   /* RESPONSIVE CSS
