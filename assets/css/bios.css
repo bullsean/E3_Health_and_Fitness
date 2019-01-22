@@ -34,9 +34,9 @@
   }
 
   .paraDiv:nth-child(1) {
-      background-image: url(https://picsum.photos/1400?image=829);
+      background-image: url(https://picsum.photos/1400?image=859);
       background-size: cover;
-      height: 80vh;
+      height: 100vh;
   }
 
   .paraDiv:nth-child(3) {
@@ -48,7 +48,7 @@
 
 
   /* End PARALLAX */
-  
+/*   
   .row {
     width: 85%;
     margin: 0 auto;
@@ -64,7 +64,7 @@
     justify-content: space-between;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-  }
+  } */
   
   /***** PERSON BOX *****/
   
