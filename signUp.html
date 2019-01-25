@@ -8,11 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bios.css">
-
-    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bios.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
 </head>
 
@@ -34,7 +34,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Plans/Programs <span class="sr-only">(current)</span></a>
+                            Plans/Programs</a>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">In-Person Training</a>
@@ -43,13 +43,13 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Meet the Trainers</a>
+                        <a class="nav-link" href="bios.html">Meet the Trainers</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="login.html">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-outline-danger" href="#">Sign up</a>
+                        <a class="btn btn-outline-danger" href="#">Sign up<span class="sr-only">(current)</span></a></a>
                     </li>
                 </ul>
             </div>
@@ -58,8 +58,8 @@
 
     <main role="main">
         <div class="paraDiv bg-danger" id="firstBack">
-            <div class="parallaxItem row">Sign Up
-                <div class="col-md-12">
+            <div class="parallaxItem row animated fadeIn">Sign Up
+                <div class="col-md-12" style="padding-left: 0px;">
                     <h2 class="">Get Started Now. <span class="text-muted">Elevate, Educate, Eliminate</span></h2>
 
                 </div>
@@ -69,23 +69,27 @@
         <div class="paraDiv bg-light">
             <div class="signUp">
                 <hr>
-                <div class="row animated fadeInLeft">
+                <div class="row animated fadeIn">
                     <div class="col-md-12">
                         <form>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Name:</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" required>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name"
+                                    required>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Email Address:</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"
+                                    required>
                             </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput1">Phone Number:</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(XXX) XXX-XXXX" required>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(XXX) XXX-XXXX"
+                                    required>
                             </div>
                             <div class="form-group">
-                                <label for="exampleFormControlInput1">What's your current fitness routine and background? </label>
+                                <label for="exampleFormControlInput1">What's your current fitness routine and
+                                    background? </label>
                                 <textarea class="form-control" id="fitnessBackground" rows="7"></textarea>
                             </div>
                             <div class="form-group">
@@ -100,12 +104,12 @@
             </div>
         </div>
 
-            <!-- FOOTER -->
-            <footer class="container">
-                <p class="text-center"><a href="#">Back to top</a></p>
-                <p class="text-center">&copy; 2019 E³ Health and Fitness, Inc. &middot; <a href="#">Privacy</a>
-                    &middot; <a href="#">Terms</a></p>
-            </footer>
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="text-center"><a href="#">Back to top</a></p>
+            <p class="text-center">&copy; 2019 E³ Health and Fitness, Inc. &middot; <a href="#">Privacy</a>
+                &middot; <a href="#">Terms</a></p>
+        </footer>
     </main>
 
 
