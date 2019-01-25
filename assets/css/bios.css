@@ -11,13 +11,15 @@
   
   body {
     overflow-x: hidden;
-    background-image: url("https://picsum.photos/1400?image=859");
-    background-color: 
+    /* background-image: url(/assets/images/brennan-ehrhardt-25066-unsplash.jpg); */
+    /* background-image: url(https://picsum.photos/1936?image=859); */
+
+    
   }
 
  .bio{
      border-radius: 16px;
-     opacity: .9;
+     /* opacity: .9; */
  }
   /* PARALLAX */
   .paraDiv {
