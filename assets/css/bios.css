@@ -40,9 +40,9 @@
   }
 
   .paraDiv:nth-child(1) {
-      background-image: url(https://picsum.photos/1400?image=859);
+      /* background-image: url(https://picsum.photos/1400?image=859); */
       background-size: cover;
-      height: 100vh;
+      height: 50vh;
   }
 
   .paraDiv:nth-child(3) {
@@ -58,6 +58,10 @@ img {
 
 
   /* End PARALLAX */
+
+  .signUp {
+      width: 75%
+  }
  
   
   
